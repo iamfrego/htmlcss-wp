@@ -1,0 +1,96 @@
+/* GENERAL */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    width: 70%;
+    margin: auto;
+}
+
+/* DEBUG ------------------------------------------------------------*/
+
+/* .debug #site_header {
+    height: 75px;
+    background-color: #e579e6;
+}
+
+.debug #hero_img {
+    height: 300px;
+    background-color: #e1d67a;
+}
+
+.debug #title {
+    height: 50px;
+    background-color: #abcfe7;
+}
+
+.debug #contents {
+    background-color: #0086ff;
+}
+
+.debug .sidearticle, .mainarticle {
+    height: 470px;
+    background-color: #abcfe7;
+}
+
+.debug #site_footer {
+    height: 75px;
+    background-color: #8801fe;
+} */
+
+/* SEZIONI ------------------------------------------------------------------*/
+
+/*header ---------------------------------------------- */
+
+#site_header {
+    margin-top: 1rem;
+    height: 100%;
+}
+
+/*main ------------------------------------------------------*/
+
+#hero_img {
+    margin-top: 1rem;
+}
+
+#title {
+    margin-top: 1rem;
+    height: 100%;
+}
+
+#contents {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.sidearticle, .mainarticle {
+    float: left;
+    padding: 1rem;
+}
+
+.sidearticle {
+    width: 25%;
+    height: 100%;
+}
+
+.mainarticle {
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+/* footer------------------------------------------------ */
+
+#site_footer {
+    margin-top: 1rem;
+}
